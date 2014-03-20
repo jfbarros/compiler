@@ -66,7 +66,7 @@ true	    { return LIT_TRUE; }
 <COMMENT>\n     { ++line_number; }
 <COMMENT>"*/"   { BEGIN(INITIAL); }
 <COMMENT>.
-
+"//.* 		{}
 
 %%
 
